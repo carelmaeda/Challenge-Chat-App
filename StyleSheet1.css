@@ -99,7 +99,7 @@ p {
     left: -200px;
     height: 500px;
     width: 400px;
-    background-color: var(--light-violet);
+    background: linear-gradient(45deg, var(--light-violet), var(--light-magenta) 100%);
     border-radius: 0 0 500px 500px;
 }
 
@@ -282,12 +282,19 @@ p {
     
     .container {
         display: grid;
-        width:80%;
+        width:60%;
         max-width:var(--desktop-width);
         margin:auto;
         grid-template-columns: auto auto;
-        margin-block: 2rem;
+        margin-block: 3rem;
         justify-items: center;
+        align-content:center
+    }
+
+    .shape {
+        left: -80px;
+        height: 600px;
+        width: 450px;
     }
 
 
