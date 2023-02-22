@@ -297,9 +297,11 @@ p {
         width: 450px;
     }
 
+    .description{
+        text-align:left;
+    }
 
     /*FOOTER*/
-
     .footer {
         position: absolute;
         bottom: 0;
